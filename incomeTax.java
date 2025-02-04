@@ -11,7 +11,7 @@ public class incomeTax {
         } else if (income >= 1000000 && income < 2000000) {
             tax = (int) (income * 0.20);
         } else {
-            tax = (int) (income * 0.30);
+            tax = (int) (income * 0.20);
         }
         System.out.println("your tax is:" + tax);
     }
