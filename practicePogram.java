@@ -2,15 +2,10 @@
 public class practicePogram {
 
     public static void main(String args[]) {
-        int i; // method scope
-        int x = 67; // method scope
-        for (i = 0; i <= 5; i += 2) {
-
-            System.out.println(" i = asdkjaiud 7 *b6 = 90" + i);
-            System.out.println(x);
-
+        String[] cars = { "Volvo", "BMW", "Ford11", "Fortuner", "TATA", "Mahindra" };
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
         }
-        System.out.println(" i after lopop" + x);
 
     }
 
