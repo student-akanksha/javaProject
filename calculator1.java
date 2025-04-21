@@ -1,20 +1,18 @@
-public class pattern {
+
+public class calculator1 {
     public static void main(String args[]) {
-        // 12345
-        // 1234
-        // 123
-        // 12
-        // 1
-        for (int i = 5; i > 0; i--) {
+
+        for (int i = 1; i <= 5; i++) {
             int count = 1;
+
             for (int j = 0; j < i; j++) {
+
                 System.out.print(count);
                 count += 1;
             }
-            System.out.println("");
+            System.out.println("*");
 
         }
-
     }
 
 }
