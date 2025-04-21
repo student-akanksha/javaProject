@@ -5,7 +5,7 @@ public class practicePogram {
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[10];
 
-        String[] cars = { "Volvo", "BMW", "Ford11", "Mazda", "TATA", "Mahindra" };
+        String[] cars = { "Volvo", "BMW", "Ford11", "111", "TATA", "Mahindra" };
         for (int i = 0; i < cars.length; i++) {
             System.out.println(cars[i]);
         }
